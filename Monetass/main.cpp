@@ -40,12 +40,12 @@ int main() {
     findCoinsRecursive(v, m, N, current, k - 1);
 
     k = 5;
-    vector v1 = { 1, 5, 50, 75, 125 };
-    vector m1 = { 5, 10, 1, 5, 1 };
+    vector<int> v1 = { 1, 5, 50, 75, 125 };
+    vector<int> m1 = { 5, 10, 1, 5, 1 };
     N = 543;
 
     cout << "Piemērs 2:" << endl;
-    vector current1(k, 0);
+    vector<int> current1(k, 0);
     findCoinsRecursive(v1, m1, N, current1, k - 1);
 
 
